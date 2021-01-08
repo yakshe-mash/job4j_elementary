@@ -10,7 +10,7 @@ public class ChessBoard {
     }
 
     public static void main(String[] args) {
-        int elphnt = ChessBoard.way(7, 7, 0, 0);
+        int elphnt = ChessBoard.way(7, 7, 2, 2);
         System.out.println(elphnt);
     }
 }
