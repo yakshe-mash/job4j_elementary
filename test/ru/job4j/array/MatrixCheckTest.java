@@ -61,7 +61,7 @@ public class MatrixCheckTest {
     public void whenNoDiagonal() {
         char[][] input = {
                 {'X', ' ', ' '},
-                {' ', ' ', ' '},
+                {' ', ' ', 'X'},
                 {' ', ' ', 'X'},
         };
         char[] result = MatrixCheck.extractDiagonal(input);
